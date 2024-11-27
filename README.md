@@ -6,6 +6,27 @@ This repository contains a project that involves simulating the interaction and 
 
 The goal of the project is to simulate the behavior of four drones that actively repel each other if they come too close, using ROS to manage drone positions and velocities. Each drone maintains a safe distance from others by calculating repulsion forces, updating target waypoints accordingly, and repelling based on position and velocity data.
 
+## Video Previews
+
+### Four Drones Repel System
+
+<table>
+  <tr>
+    <td>
+      <a href="https://youtu.be/GANJoQczyxc">
+        <img src="https://img.youtube.com/vi/GANJoQczyxc/0.jpg" alt="General Repulsion Video" width="400"/>
+      </a>
+      <p align="center"><b>General Repulsion Video</b></p>
+    </td>
+    <td>
+      <a href="https://youtu.be/ZfXNzEpZqBE">
+        <img src="https://img.youtube.com/vi/ZfXNzEpZqBE/0.jpg" alt="Vertical Repulsion Video" width="400"/>
+      </a>
+      <p align="center"><b>Vertical Repulsion Video</b></p>
+    </td>
+  </tr>
+</table>
+
 The key components of this project include:
 
 1. **Drone Repel Node**: A C++ script to calculate the relative distances between drones, calculate repelling forces, and update drone positions accordingly.
